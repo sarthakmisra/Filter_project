@@ -5,7 +5,7 @@ function preload() {
  filtar = loadimage("https://i.postimg.cc/76DHVwx0/lipstick-removebg-preview.png");//this variable is the lipstick now!
 }
 function setup() {
-    canvas = createCanvas(450,450);
+    canvas = createCanvas(30,30,450,450);
     canvas.center();
     webcam = createCapture(VIDEO);
    webcam.size(0,0,450,450);
